@@ -1,0 +1,24 @@
+ul.container {
+  width: 200px;
+  overflow: hidden;
+  background: aliceblue;
+  padding: 0px;
+}
+
+ul.container li {
+  list-style-type: none;
+  width: 198px;
+  text-align: center;
+  border: 1px solid gray;
+  padding: 10px 0px;
+  cursor: move;
+}
+
+ul.container li.over {
+  border: 1px dashed #000;
+}
+
+ul.container li.dragging {
+  opacity: 0.4;
+  background-color: #58b759;
+}
